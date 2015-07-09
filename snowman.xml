@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<cena>
+		<luzes>
+            <luz tipo="POINT" posX="0" posY="15.0" posZ="20.0"/>
+        </luzes>
+		<!--Bola da base-->
+		<grupo>
+			<modelo ficheiro='Snowman/bonecoEsfera.3d' textura='Snowman/snow.jpg'/>
+		</grupo>
+		<grupo>
+			<!--Bola do meio-->
+			<translacao Y='7'/>
+			<escala X='0.75' Y='0.75' Z='0.75'/>
+			<modelo ficheiro='Snowman/bonecoEsfera.3d' textura='Snowman/snow.jpg'/>
+			<grupo>
+				<!--Braço direito-->
+				<translacao X='6' Y='2'/>
+				<rotacao angulo='135' eixoX='0' eixoY='0' eixoZ='1'/>
+				<escala X='0.05' Y='0.75' Z='0.05'/>
+				<modelo ficheiro='Snowman/bonecoCilindro.3d' textura='Snowman/brown.jpg'/>
+			</grupo>
+			<grupo>
+				<!--Braço esquerdo-->
+				<translacao X='-6' Y='2'/>
+				<rotacao angulo='45' eixoX='0' eixoY='0' eixoZ='1'/>				
+				<escala X='0.05' Y='0.75' Z='0.05'/>				
+				<modelo ficheiro='Snowman/bonecoCilindro.3d' textura='Snowman/brown.jpg'/>
+			</grupo>
+			<grupo>
+				<!--Cabeça-->
+				<translacao Y='7'/>
+				<escala X='0.75' Y='0.75' Z='0.75'/>
+				<modelo ficheiro='Snowman/bonecoEsfera.3d' textura='Snowman/snow.jpg'/>
+				<grupo>
+					<!--Boca-->
+					<translacao Y='-2' Z='4.6'/>
+					<rotacao angulo='135' eixoX='1' eixoY='0' eixoZ='0'/>
+					<escala X='0.2' Y='0.05' Z='0.05'/>	
+					<modelo ficheiro='Snowman/bonecoAnel.3d' textura='Snowman/black.jpg'/>
+				</grupo>
+				<grupo>
+					<!--Base do chapeu-->
+					<translacao Y='4.5'/>
+					<escala X='2.5' Y='0.05' Z='2.5'/>
+					<modelo ficheiro='Snowman/bonecoCilindro.3d' textura='Snowman/brown.jpg'/>
+					<grupo>
+						<!--Parte superior do chapeu-->
+						<translacao Y='50'/>
+						<escala X='0.5' Y='20' Z='0.5'/>
+						<modelo ficheiro='Snowman/bonecoCilindro.3d' textura='Snowman/brown.jpg'/>
+					</grupo>
+				</grupo>
+				<grupo>
+					<!--Olho direito-->
+					<translacao X='2' Y='2' Z='4'/>
+					<escala X='0.05' Y='0.05' Z='0.05'/>
+					<modelo ficheiro='Snowman/bonecoEsfera.3d' textura='Snowman/black.jpg'/>
+				</grupo>
+				<grupo>
+					<!--Olho esquerdo-->
+					<translacao X='-2' Y='2' Z='4'/>
+					<escala X='0.05' Y='0.05' Z='0.05'/>
+					<modelo ficheiro='Snowman/bonecoEsfera.3d' textura='Snowman/black.jpg'/>
+				</grupo>
+				<grupo>
+					<!--Nariz-->
+					<translacao Z='6'/>
+					<rotacao angulo='90' eixoX='1' eixoY='0' eixoZ='0'/>
+					<escala X='0.3' Y='1.2' Z='0.3'/>
+					<modelo ficheiro='Snowman/cone.3d' textura='Snowman/orange.jpg'/>
+				</grupo>
+			</grupo>
+		</grupo>
+	</cena>
+</xml>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<cena>
+		<!--Teapot-->
+		<grupo>			
+			<translacao X='0.5' Z='1.5' />		
+			<rotacao angulo='-90' eixoX='1' eixoY='0' eixoZ='0'/>
+			<rotacao tempo='0' angulo='40' eixoX='0' eixoY='0' eixoZ='1'/>
+			<modelo ficheiro='teatime/teapot.3d'  textura='teatime/tex2.jpg' />
+		</grupo>
+		<!--Teacup 1-->
+		<grupo>
+			<translacao  X='4'/>
+			<modelo ficheiro='teatime/teacup10.3d' textura='teatime/tex2.jpg' />
+			</grupo>
+		<!--Teacup 2-->
+		<grupo>
+			<translacao  X='6.5' />
+			<modelo ficheiro='teatime/teacup10.3d' textura='teatime/tex2.jpg' />
+		</grupo>
+		<!--Teacup 3-->
+		<grupo>
+			<translacao Z='2.3' X='4.3'  />
+			<modelo ficheiro='teatime/teacup10.3d' textura='teatime/tex2.jpg' />
+		</grupo>
+		<!--Teacup 4-->
+		<grupo>
+			<translacao Z='2.3' X='6.8'  />
+			<modelo ficheiro='teatime/teacup10.3d' textura='teatime/tex2.jpg' />
+		</grupo>
+		<!--Spoon 1-->
+		<grupo>
+			<translacao X='4.25' Z='4.5' />
+			<rotacao angulo='-90' eixoX='1' eixoY='0' eixoZ='0'/>
+			<modelo ficheiro='teatime/teaspoon10.3d' textura='teatime/tex2.jpg'  />
+		</grupo>
+		<!--Spoon 2-->
+		<grupo>
+			<translacao X='3.95' Z='4.5' />			
+			<rotacao angulo='-90' eixoX='1' eixoY='0' eixoZ='0'/>		
+			<rotacao tempo= '0' angulo='15' eixoX='0' eixoY='0' eixoZ='1'/>
+			<modelo ficheiro='teatime/teaspoon10.3d'  textura='teatime/tex2.jpg' />
+		</grupo>
+		<!--Spoon 3-->
+		<grupo>
+			<translacao X='3.65' Z='4.5' />			
+			<rotacao angulo='-90' eixoX='1' eixoY='0' eixoZ='0'/>		
+			<rotacao tempo= '0' angulo='30' eixoX='0' eixoY='0' eixoZ='1'/>
+			<modelo ficheiro='teatime/teaspoon10.3d' textura='teatime/tex2.jpg' />
+		</grupo>
+		<!--Spoon 4-->
+		<grupo>
+			<translacao X='4.6' Z='4.5' />			
+			<rotacao angulo='-90' eixoX='1' eixoY='0' eixoZ='0'/>		
+			<rotacao tempo= '0' angulo='-15' eixoX='0' eixoY='0' eixoZ='1'/>
+			<modelo ficheiro='teatime/teaspoon10.3d' textura='teatime/tex2.jpg' />
+		</grupo> 
+	
+	</cena>
+</xml>
